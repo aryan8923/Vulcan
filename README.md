@@ -9,7 +9,7 @@ For numerical methods, I will primarily follow the book [*Computational Methods 
 Feel free to explore the code base and utilize the scripts for your educational and research purposes. Contributions and feedback are welcome as we collectively enhance our understanding of computational physics.
 
 ## Why "Vulcan"
-This project is inspired by Vulcan in Roman mythology, emphasizing meticulous craftsmanship, precision, and the creation of powerful tools. It seeks to mirror Vulcan's dedication to forging solutions with expertise. In a similar vein to Vulcan crafting divine artifacts for the gods, the project aims to develop a sophisticated collection of computational tools. While I'm still improving my skills in this field through this project, the goal is to create efficient tools that reflect a growing mastery of the craft, providing insightful solutions in the realm of numerical analysis.
+This project is inspired by Vulcan in Roman mythology, emphasizing meticulous craftsmanship, precision, and the creation of powerful tools. It seeks to mirror Vulcan's dedication to forging solutions with expertise. In a similar vein to Vulcan crafting divine artifacts for the gods, the project aims to develop a sophisticated collection of computational tools. While I'm still improving my skills in this field through this project, the goal is to create efficient tools that reflect a growing mastery of the craft, providing insightful solutions in the field of numerical analysis.
 
 ## Resources
 
