@@ -14,7 +14,7 @@ $$p_{n}^\star(x_{i})-f(x _{i})=\lambda(-1)^{i}E_{n}^\star$$
 
 for $i=0,1,\dots,n\ + \ 1$ and $\lambda$ is a fixed value $\in [-1,1]$ 
 
-$\implies$ coeff. of $p_{n}(x)=\sum_{j=0}^na_{j}x^{j}$ and parameter $E_{n}$ must fulfil the system of equations :
+$\implies$ coeff. of ```math $p_{n}(x)=\sum_{j=0}^na_{j}x^{j}$``` and parameter $E_{n}$ must fulfil the system of equations :
 math $$\sum_{j=0}^na_{j}x _{i}^{j}-f(x _{i})=(-1)^{i}E_{n}, \quad  i=0,1,\dots,n\ + \  1 \quad  \quad  (2)$$
 $$\sum_{j=0}^na_{j}x _{i}^j-f(x _{i}) = \text{extreme} \quad  \quad  (3)$$ or if $(3)$ is differentiable, 
 $$\sum_{j=1}^nja_{j}x^{j-1}_{i}-f^\prime(x _{i})=0 \quad   \quad  (4)$$
