@@ -31,7 +31,7 @@ $$\sum_{j=1}^nja_{j}x^{j-1}_{i}-f^\prime(x _{i})=0 \quad   \quad  (4)$$
 
 **Algorithm**
 - initial guess for $x_{i}$ (excellent choice: $x_{i}$ at which [Chebyshev polynomials](https://en.wikipedia.org/wiki/Chebyshev_polynomials) $T_{n+1}=\ \pm \ 1$ , so : $x _{i}=\cos\left( \frac{i\pi}{n\ + \ 1} \right)$, $i=0,1,\dots,n\ + \ 1$) 
-- Solve $(2)$ : $\{ a_{j} \}_{j=0}^n, E_{n}$ are the first approximations of optimal polynomial and max error is $p-f$ 
+- Solve $(2)$ : $\{a_{j}\}^n_{j=0}, E_{n}$ are the first approximations of optimal polynomial and max error is $p-f$ 
 - Use these to solve $(3)$ or $(4)$ (search for points at which error $(p-f)$ has an extreme)
 - new points again used in $(2)$ and repeated till difference between consecutive $E_{n}$'s $<$ tolerance
 
