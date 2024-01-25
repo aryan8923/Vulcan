@@ -14,7 +14,7 @@ $$p_{n}^\star(x_{i})-f(x _{i})=\lambda(-1)^{i}E_{n}^\star$$
 
 for $i=0,1,\dots,n\ + \ 1$ and $\lambda$ is a fixed value $\in [-1,1]$ 
 
-$\implies$ coeff. of $`p_{n}(x)=\sum_{j=0}^na_{j}x^{j}`$ and parameter $E_{n}$ must fulfil the system of equations :
+$\implies$ coeff. of $`p_{n}(x)=\sum_{j=0}^{n}a_{j}x^{j}`$ and parameter $E_{n}$ must fulfil the system of equations :
 
 ```math
 $$\sum_{j=0}^na_{j}x _{i}^{j}-f(x _{i})=(-1)^{i}E_{n}, \quad  i=0,1,\dots,n\ + \  1 \quad  \quad  (2)$$
@@ -31,7 +31,7 @@ $$\sum_{j=1}^nja_{j}x^{j-1}_{i}-f^\prime(x _{i})=0 \quad   \quad  (4)$$
 
 **Algorithm**
 - initial guess for $x_{i}$ (excellent choice: $x_{i}$ at which [Chebyshev polynomials](https://en.wikipedia.org/wiki/Chebyshev_polynomials) $T_{n+1}=\ \pm \ 1$ , so : $x _{i}=\cos\left( \frac{i\pi}{n\ + \ 1} \right)$, $i=0,1,\dots,n\ + \ 1$) 
-- Solve $(2)$ : $\{a_{j}\}^n_{j=0}, E_{n}$ are the first approximations of optimal polynomial and max error is $p-f$ 
+- Solve $(2)$ : $`\{a_{j}\}^n_{j=0}, E_{n}`$ are the first approximations of optimal polynomial and max error is $p-f$ 
 - Use these to solve $(3)$ or $(4)$ (search for points at which error $(p-f)$ has an extreme)
 - new points again used in $(2)$ and repeated till difference between consecutive $E_{n}$'s $<$ tolerance
 
